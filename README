@@ -1,4 +1,4 @@
-This project is an inspiration of Jelmer Vernstok work (https://code.launchpad.net/ftdi-cil?field.lifecycle=ALL). When I started playing with an SBC (like Beagleboard) with Linux OS and Mono, I found out that Jelmer's code won't work in my system so I updated some parts of the code to make it work. Since his site is not updated and I think his page (http://jelmer.vernstok.nl/oss/ftdi-cil) is broken I'd like to put up a code that will work on a certain level of the Linux source tree.
+This project is an inspiration of Jelmer Vernstok's work (https://code.launchpad.net/ftdi-cil?field.lifecycle=ALL). When I started playing with an SBC (like Beagleboard) with Linux OS and Mono, I found out that Jelmer's code won't work in my system so I updated some parts of the code to make it work. Since his site is not updated and I think his page (http://jelmer.vernstok.nl/oss/ftdi-cil) is broken I'd like to put up a code that will work on a certain level of the Linux source tree.
 
 Jelmer, if you see this project, kindly check, correct, and update as you see fit.
 -
