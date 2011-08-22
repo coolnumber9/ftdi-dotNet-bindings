@@ -1,3 +1,11 @@
+//***********************************************************************
+/*
+    FTDI CIL Bindings
+	 - Original source by: Jelmer Vernstok - http://jelmer.vernstok.nl/oss/ftdi-cil
+     - Updated using MonoDevelop in Linux by: Kristoffer Dominic Amora (a.k.a. coolnumber9)
+*/
+// ***********************************************************************
+
 using System;
 using System.Runtime.InteropServices;
 using System.Collections;
@@ -9,7 +17,12 @@ namespace FTDI_NET_Wrapper
 	{ 
 		TYPE_AM=0, 
 		TYPE_BM=1, 
-		TYPE_2232C=2, 		
+		TYPE_2232C=2, 	
+		// + coolnumber9, 03/01/10 
+		TYPE_R=3,
+		TYPE_2232H=4,
+		TYPE_4232H=5
+		// - coolnumber9, 03/01/10
 	};
 	
 	// Parity mode for ftdi_set_line_property()
