@@ -62,6 +62,10 @@ namespace FTDI_NET_Wrapper
 	    INTERFACE_ANY = 0,
 	    INTERFACE_A   = 1,
 	    INTERFACE_B   = 2,		
+		// + coolnumber9, 03/01/10
+		INTERFACE_C   = 3,
+    	INTERFACE_D   = 4
+		// - coolnumber9, 03/01/10
 	};
 
 	/* Shifting commands IN MPSSE Mode*/
