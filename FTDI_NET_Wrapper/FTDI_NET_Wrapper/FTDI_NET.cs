@@ -199,6 +199,7 @@ namespace FTDI_NET_Wrapper
 	
 		/* 1: (default) Normal bitbang mode, 2: FT2232C SPI bitbang mode */
 		byte bitbang_mode;
+		int eeprom_size;	// coolnumber9, 03/01/10
 	
 		// misc
 		/* String representation of last error */
@@ -232,7 +233,10 @@ namespace FTDI_NET_Wrapper
 	
 		string manufacturer;
 		string product;
-		string serial;		
+		string serial;	
+		/* EEPROM size in bytes. This doesn't get stored in the EEPROM
+        but is the only way to pass it to ftdi_eeprom_build. */
+		int size;	// coolnumber9, 03/01/10
 	};
 	
 	public class FTDIContext 
