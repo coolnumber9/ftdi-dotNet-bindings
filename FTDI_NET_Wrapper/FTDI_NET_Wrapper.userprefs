@@ -1,0 +1,29 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" ctype="Workspace" />
+  <MonoDevelop.Ide.DebuggingService>
+    <BreakpointStore>
+      <Breakpoint file="/home/ncrlabs/MonoProjects/FTDI_MONO/FTDI_NET_TEST/FTDI_NET_TEST/FTDI_NET_TEST/Main.cs" line="11" />
+      <Breakpoint file="/home/ncrlabs/MonoProjects/FTDI_MONO/FTDI_NET_TEST/FTDI_NET_TEST/FTDI_NET_TEST/Main.cs" line="14" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService>
+  <MonoDevelop.Ide.Workbench ctype="Workbench">
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="FTDI_NET_Wrapper" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True">
+          <Node name="FTDI_NET_Wrapper" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="FTDI_NET_Wrapper" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
