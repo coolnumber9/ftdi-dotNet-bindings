@@ -51,6 +51,9 @@ namespace FTDI_NET_Wrapper
 	    BITMODE_MPSSE  = 0x02,
 	    BITMODE_SYNCBB = 0x04,
 	    BITMODE_MCU    = 0x08,		
+		/* CPU-style fifo mode gets set via EEPROM */	// coolnumber9, 03/01/10
+	    BITMODE_OPTO   = 0x10,
+		BITMODE_CBUS   = 0x20	// coolnumber9, 03/01/10
 	};
 
 	/* Port interface code for FT2232C */
