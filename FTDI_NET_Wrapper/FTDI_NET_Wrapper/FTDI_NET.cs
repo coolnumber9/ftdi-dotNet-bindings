@@ -34,6 +34,15 @@ namespace FTDI_NET_Wrapper
 	// Number of bits for ftdi_set_line_property()
 	public enum BitsType { BITS_7=7, BITS_8=8 };
 	
+	// Break type for ftdi_set_line_property2()
+	// + coolnumber9, 03/01/10
+	public enum BreakType
+	{
+		BREAK_OFF=0,
+		BREAK_ON=1
+	}
+	// - coolnumber9, 03/01/10
+	
 	// MPSSE bitbang modes
 	enum MpsseMode : uint 
 	{
